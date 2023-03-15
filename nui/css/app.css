@@ -1,0 +1,30 @@
+.wrapper {
+    padding: 51% 0 0 0;
+    display: none;
+    /* background-color: blue; */
+}
+
+.container {
+    background: rgb(93,49,171);
+    background: linear-gradient(90deg, rgba(93,49,171,1) 0%, rgba(48,0,133,1) 0%, rgba(84,30,179,1) 63%);
+    box-shadow: 5px 5px rgba(94, 49, 171, 0.658);
+    border: 1px solid rgb(126, 126, 126);
+    width: 300px;
+    height: fit-content;
+    min-height: 80px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    padding: 8px 0 0 0;
+}
+
+.container p {
+    color: white;
+    font-size: 20px;
+    padding: 2px 0 0 8px;
+}
